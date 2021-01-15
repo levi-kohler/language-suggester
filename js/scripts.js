@@ -3,6 +3,11 @@ function totalValue(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 }
 
+function Javascript() {
+  return "Javascript"
+}
+
+
 //UI Logic
 $(document).ready(function() {
   const fun = confirm ("Do you like to have fun? Click OK for yes or Cancel for no.");

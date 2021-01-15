@@ -1,5 +1,5 @@
-function add(number1, number2, number3) {
-  return number1 + number2 +number3;
+function add(number1, number2, number3, number4, number5) {
+  return number1 + number2 + number3 + number4 + number5;
 }
 
 $(document).ready(function() {
@@ -14,6 +14,7 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event){
     event.preventDefault
     const number1 = parseInt($("#beach").val());
+    const number2 = parseInt
   });
 });
 

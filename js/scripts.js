@@ -28,7 +28,7 @@ $(document).ready(function() {
     } else {
       result = (Ruby);
     }
-    $("#output").text(result);
+    $("#quiz-result").text(result);
   });
 });
 

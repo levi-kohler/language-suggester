@@ -23,8 +23,8 @@ $(document).ready(function() {
       result = (Javascript);
     } else if (totalValue >= "5"); {
       result = (Csharp);
-    // } else; {
-    //   result = (Ruby)
+    } else if (totalValue >= "0") {
+      result = (Ruby);
     }
     $("#output").text(result);
   });

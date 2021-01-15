@@ -14,7 +14,7 @@ $(document).ready(function() {
   }
   
   $("form#quiz").submit(function(event){
-    event.preventDefault
+    event.preventDefault();
     const number1 = parseInt($("#beach").val());
     const number2 = parseInt($("#sample1").val());
     const number3 = parseInt($("#sample2").val());

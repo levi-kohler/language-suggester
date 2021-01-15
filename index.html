@@ -12,13 +12,18 @@
     <div id="coder">
       <h1>Welcome Coders!</h1>
       <hr>
-      <h3>So you wanna be a coder huh? Take this unreasonably personal quiz to find out which language(s) are best for you (feel free to answer all or just some of the questions):</h3>
+      <h3>So you wanna be a coder huh? Take this unreasonably personal quiz to find out which language(s) are best for you.</h3>
 
       <form id="quiz">
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color" class="color">
+        <h4>Select how much each of the following statements is true for you:</h4>
+        <select class ="form-control" id="beach">
+          <option value="1">Very much like me</option>
+          <option value="2">Somewhat like me</option>
+          <option value ="3">Not at all like me</option>
+        </select>
         <br>
         <hr>
+        <button type="submit" value ="submit" class="btn btn-success">Submit Quiz!</button>
       </form>
     </div>
 
@@ -27,5 +32,7 @@
       <h3>It looks like our algorithm decided you're not quite ready to take the leap into coding, we recommend you read <a href="https://www.wikihow.com/Have-Fun">this article</a> and try again later!</h3>
     </div>
   </div>
+
+  <div id="quiz-result"></div>
 </body>
 </html>

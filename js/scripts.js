@@ -7,6 +7,14 @@ function Javascript() {
   return "Javascript"
 }
 
+function Csharp() {
+  return "C#"
+}
+
+function Ruby() {
+  return "Ruby"
+}
+
 
 //UI Logic
 $(document).ready(function() {
@@ -27,11 +35,11 @@ $(document).ready(function() {
     const number5 = parseInt($("#sample4").val());
     const total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (total >= "10") {
+    if (total >= "15") {
       result = (Javascript);
-    } else if (totalValue >= "5") {
+    } else if (totalValue >= "10") {
       result = (Csharp);
-    } else {
+    } else if (totalValue >= "5") {
       result = (Ruby);
     }
     $("#quiz-result").text(result);

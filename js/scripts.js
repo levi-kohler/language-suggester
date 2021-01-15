@@ -1,4 +1,4 @@
-function add(number1, number2, number3, number4, number5) {
+function totalValue(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 }
 
@@ -18,6 +18,15 @@ $(document).ready(function() {
     const number3 = parseInt($("#sample2").val());
     const number4 = parseInt($("#sample3").val());
     const number5 = parseInt($("#sample4").val());
+    let result;
+    if (totalValue >= "10") {
+      result = (Javascript);
+    } else if (totalValue >= "5"); {
+      result = (Csharp);
+    // } else; {
+    //   result = (Ruby)
+    }
+    $("#output").text(result);
   });
 });
 

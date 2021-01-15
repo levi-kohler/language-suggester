@@ -8,7 +8,7 @@ function Javascript() {
 }
 
 function Csharp() {
-  return "C#"
+  return "Csharp"
 }
 
 function Ruby() {
@@ -35,12 +35,13 @@ $(document).ready(function() {
     const number5 = parseInt($("#sample4").val());
     const total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (total === "0") {
+    if (total >= "7") {
       result = (Ruby);
-    } else if (totalValue === "5") {
+
+    } else if (totalValue === "6") {
       result = (Csharp);
-    } else {
-      result = (Javascript);
+    // } else {
+    //   result = (Javascript);
     }
     $("#quiz-result").text(result);
   });

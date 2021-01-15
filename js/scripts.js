@@ -35,12 +35,12 @@ $(document).ready(function() {
     const number5 = parseInt($("#sample4").val());
     const total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (total === "7") {
-      result = (Javascript);
-    } else if (totalValue === "4") {
+    if (total === "0") {
+      result = (Ruby);
+    } else if (totalValue === "5") {
       result = (Csharp);
     } else {
-      result = (Ruby);
+      result = (Javascript);
     }
     $("#quiz-result").text(result);
   });

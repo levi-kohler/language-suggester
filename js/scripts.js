@@ -15,13 +15,14 @@ $(document).ready(function() {
   
   $("form#quiz").submit(function(event){
     event.preventDefault
-    const number1 = parseInt($("#beach").val());
-    const number2 = parseInt($("#sample1").val());
-    const number3 = parseInt($("#sample2").val());
-    const number4 = parseInt($("#sample3").val());
-    const number5 = parseInt($("#sample4").val());
+    let number1 = parseInt($("#beach").val());
+    let number2 = parseInt($("#sample1").val());
+    let number3 = parseInt($("#sample2").val());
+    let number4 = parseInt($("#sample3").val());
+    let number5 = parseInt($("#sample4").val());
+    let total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (totalValue >= "10") {
+    if (total >= "10") {
       result = (Javascript);
     } else if (totalValue >= "5") {
       result = (Csharp);

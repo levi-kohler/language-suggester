@@ -35,11 +35,11 @@ $(document).ready(function() {
     const number5 = parseInt($("#sample4").val());
     const total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (total >= "15") {
+    if (total >= "7") {
       result = (Javascript);
-    } else if (totalValue >= "10") {
+    } else if (totalValue >= "4") {
       result = (Csharp);
-    } else if (totalValue >= "5") {
+    } else if (totalValue >= "0") {
       result = (Ruby);
     }
     $("#quiz-result").text(result);

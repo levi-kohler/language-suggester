@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   if (fun) {
     $('#coder').show();
-  }else {
-    ('#not-a-coder').show();
+  } else {
+    $('#not-a-coder').show();
   }
 });

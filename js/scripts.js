@@ -4,16 +4,19 @@ function totalValue(number1, number2, number3, number4, number5) {
 }
 
 function Javascript() {
-  return "Javascript"
+  return "Javascript!"
 }
 
 function Csharp() {
-  return "Csharp"
+  return "Csharp!"
 }
 
 function Ruby() {
-  return "Ruby"
+  return "Ruby!"
 }
+
+
+
 
 
 //UI Logic
@@ -29,10 +32,10 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event){
     event.preventDefault();
     let number1 = parseInt($("#beach").val());
-    let number2 = parseInt($("#sample1").val());
-    let number3 = parseInt($("#sample2").val());
-    let number4 = parseInt($("#sample3").val());
-    let number5 = parseInt($("#sample4").val());
+    let number2 = parseInt($("#dogs").val());
+    let number3 = parseInt($("#waterfalls").val());
+    let number4 = parseInt($("#dessert").val());
+    let number5 = parseInt($("#climate").val());
     let total = totalValue (number1, number2, number3, number4, number5)
     let result;
     if (total > "5") {
@@ -46,5 +49,3 @@ $(document).ready(function() {
     $("#quiz-result").text(result);
   });
 });
-
-// Coding languages returned will either be  : Javescript, C#, or Ruby

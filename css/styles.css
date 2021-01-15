@@ -1,3 +1,11 @@
 #coder, #not-a-coder {
   display: none;
 }
+
+body {
+  background-color: rgb(212, 181, 79);
+}
+
+.form-group {
+  background-color: lightgreen;
+}

@@ -1,5 +1,5 @@
-function totalValue () {
-  return
+function add(number1, number2, number3) {
+  return number1 + number2 +number3;
 }
 
 $(document).ready(function() {
@@ -11,17 +11,9 @@ $(document).ready(function() {
     $('#not-a-coder').show();
   }
   
-  $("quiz").submit(function(event){
+  $("form#quiz").submit(function(event){
     event.preventDefault
-    let color = $("#color").val();
 
-    function favColor(color) {
-      if(color === "#000000" || color === "#0000ff"){
-      return "Javascript";
-      } else {
-        return "";
-      }
-    }
   });
 });
 

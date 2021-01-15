@@ -1,7 +1,9 @@
+//Business Logic
 function totalValue(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 }
 
+//UI Logic
 $(document).ready(function() {
   const fun = confirm ("Do you like to have fun? Click OK for yes or Cancel for no.");
 
@@ -21,9 +23,9 @@ $(document).ready(function() {
     let result;
     if (totalValue >= "10") {
       result = (Javascript);
-    } else if (totalValue >= "5"); {
+    } else if (totalValue >= "5") {
       result = (Csharp);
-    } else if (totalValue >= "0") {
+    } else {
       result = (Ruby);
     }
     $("#output").text(result);

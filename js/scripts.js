@@ -6,4 +6,13 @@ $(document).ready(function() {
   } else {
     $('#not-a-coder').show();
   }
+
+  $("quiz").submit(function(event){
+    event.preventDefault
+    let number = $("#color").val();
+
+    function favColor(color) {
+      if(color === #000000) || color === 
+    }
+  }
 });

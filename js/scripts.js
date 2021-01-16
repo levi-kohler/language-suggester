@@ -15,10 +15,6 @@ function Ruby() {
   return "Ruby!"
 }
 
-
-
-
-
 //UI Logic
 $(document).ready(function() {
   const fun = confirm ("Do you like to have fun? Click OK for yes or Cancel for no.");

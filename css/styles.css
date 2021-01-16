@@ -9,3 +9,10 @@ body {
 .form-group {
   background-color: lightgreen;
 }
+
+#grogu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

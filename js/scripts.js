@@ -3,11 +3,11 @@ function totalValue(number1, number2, number3, number4, number5) {
 }
 
 function Javascript() {
-  return "Javascript! Often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
+  return "Javascript! Often abbreviated as JS, Javascript is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
 }
 
 function Csharp() {
-  return "Csharp! Csharp (commonly written as C#) is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines."
+  return "C#! C# (pronounced 'C-sharp') is an object-oriented programming language from Microsoft that aims to combine the computing power of C++ with the programming ease of Visual Basic. C# is based on C++ and contains features similar to those of Java. C# is designed to work with Microsoft's . Net platform."
 }
 
 function Ruby() {

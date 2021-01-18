@@ -1,21 +1,19 @@
-//Business Logic
 function totalValue(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 }
 
 function Javascript() {
-  return "Javascript!"
+  return "Javascript! Often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
 }
 
 function Csharp() {
-  return "Csharp!"
+  return "Csharp! Csharp (commonly written as C#) is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines."
 }
 
 function Ruby() {
-  return "Ruby!"
+  return "Ruby! Ruby is A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
 }
 
-//UI Logic
 $(document).ready(function() {
   const fun = confirm ("Do you like to have fun? Click OK for yes or Cancel for no.");
 

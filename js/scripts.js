@@ -32,10 +32,10 @@ $(document).ready(function() {
     let number5 = parseInt($("#climate").val());
     let total = totalValue (number1, number2, number3, number4, number5)
     let result;
-    if (total > "5") {
+    if (total > 5) {
       result = (Ruby);
 
-    } else if (total < "5") {
+    } else if (total < 5) {
       result = (Csharp);
     } else {
       result = (Javascript);

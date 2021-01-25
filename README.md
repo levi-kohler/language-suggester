@@ -10,6 +10,7 @@
 * CSS
 * JavaScript
 * Markdown
+* Jquery
 
 ## Description
 

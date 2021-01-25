@@ -26,3 +26,15 @@ body {
 #conclusion {
   color: rgb(99, 98, 98);
 }
+
+#ruby {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}

@@ -10,9 +10,9 @@ function Csharp() {
   return "C#! C# (pronounced 'C-sharp') is an object-oriented programming language from Microsoft that aims to combine the computing power of C++ with the programming ease of Visual Basic. C# is based on C++ and contains features similar to those of Java. C# is designed to work with Microsoft's . Net platform."
 }
 
-function Ruby() {
-  return "Ruby! Ruby is A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
-}
+// function Ruby() {
+//   return "Ruby! Ruby is A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
+// }
 
 $(document).ready(function() {
   const fun = confirm ("Do you like to have fun? Click OK for yes or Cancel for no.");
@@ -33,13 +33,14 @@ $(document).ready(function() {
     let total = totalValue (number1, number2, number3, number4, number5)
     let result;
     if (total > 5) {
-      result = (Ruby);
+      $("#ruby").show();
+      // result = (Ruby);
 
     } else if (total < 5) {
       result = (Csharp);
     } else {
       result = (Javascript);
     }
-    $("#quiz-result").text(result);
+    // $("#quiz-result").text(result);
   });
 });

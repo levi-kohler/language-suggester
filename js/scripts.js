@@ -34,13 +34,12 @@ $(document).ready(function() {
     let result;
     if (total > 5) {
       $("#ruby").show();
-      // result = (Ruby);
 
     } else if (total < 5) {
-      result = (Csharp);
+      $("#csharp").show();
+
     } else {
-      result = (Javascript);
+      $("#javascript").show();
     }
-    // $("#quiz-result").text(result);
   });
 });

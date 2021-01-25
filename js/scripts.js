@@ -19,19 +19,18 @@ $(document).ready(function() {
     let number4 = parseInt($("#dessert").val());
     let number5 = parseInt($("#climate").val());
     let total = totalValue (number1, number2, number3, number4, number5)
-    // let result;
     if (total > 5) {
-      $("#ruby").show();
+      $("#ruby").fadeIn();
       $("#csharp").hide();
       $("#javascript").hide();
 
     } else if (total < 5) {
-      $("#csharp").show();
+      $("#csharp").fadeIn();
       $("#ruby").hide();
       $("#javascript").hide();
 
     } else {
-      $("#javascript").show();
+      $("#javascript").fadeIn();
       $("#csharp").hide();
       $("#ruby").hide();
     }
